@@ -1,0 +1,101 @@
+/* Global Styles */
+
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f2f0f0;
+  color: #333;
+  overflow: hidden;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: disc;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  height: 20px;
+}
+
+/* Utilities */
+.container {
+  margin: 120px 0;
+  height: 84vh;
+  overflow-y: scroll;
+}
+
+.no-data{
+  margin: 8% auto 8% auto;
+  font-size: 30px;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+}
+
+.header{
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  width: 94%;
+}
+
+// ipad
+@media( min-width: 700px ) {
+  .container{
+    margin: 80px 10px 0 10px;
+    height: calc(100vh - 120px);
+    display: flex;
+    overflow-y: hidden;
+  }
+  .footer{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+  }
+  .no-data{
+    margin: 25% auto 0 auto;
+  }
+}
+
+//desktop
+@media ( min-width: 1025px ) {
+  .container{
+    margin: 80px 10px 0 10px;
+    display: flex;
+    overflow-y: hidden;
+  }
+  
+}
+
+// for above 1440px width
+@media ( min-width: 1441px ) {
+  .container{
+    margin: 80px 10% 0 10%;
+  }
+  .header{
+    left: 10%;
+  }
+}

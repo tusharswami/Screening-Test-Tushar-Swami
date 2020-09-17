@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\n\nvar Header = function Header() {\n  return __jsx(\"header\", {\n    className: \"header\"\n  }, __jsx(\"h1\", null, \"SpaceX Launch Programs\"));\n};\n\nexport default Header;","map":null,"metadata":{},"sourceType":"module"}
