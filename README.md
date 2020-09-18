@@ -14,10 +14,20 @@ This app requires [Node.js](https://nodejs.org/) v12.14.1+ to run.
 Visit the [Downloads page], if you don't already have [Node.js](https://nodejs.org/) installed
 ``` sh
  $ git clone https://github.com/tusharswami/Screening-Test-Tushar-Swami.git
- $  cd ./frontend
+ $ cd ./frontend
  $ npm install
+ For Running Development Environment
+ $ npm run dev
+ For Running Production Environment
  $ npm run build
  $ npm start
+```
+Use Helper Scripts 
+```sh
+Gets the Development server up and running
+ $ npm run fire:dev
+Gets the Production server up and running
+ $ npm run fire:prod
 ```
 Verify the deployment by navigating to your server address in your preferred browser.
 

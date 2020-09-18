@@ -16,7 +16,7 @@ const Cards = ({filters}) => {
 
     // On Filter Update
     useEffect(() => {
-            console.log(filters)
+            // console.log(filters)
             const _params = 0 !== Object.keys( filters ).length ? `?${ queryString.stringify(filters) }`: null;
             getData(_params,filters).then(
                 ( res ) => { setValues( { ...values, response: res, isFetching: false } ); }
@@ -29,7 +29,7 @@ const Cards = ({filters}) => {
 
         setValues( { ...values, isFetching:true, response: {} } );
         let res;
-        console.log(_params)
+        // console.log(_params)
         try {
             res = await axios.get(`https://api.spacexdata.com/v3/launches?limit=100${_params}`);
         } catch (e) {
@@ -46,6 +46,7 @@ const Cards = ({filters}) => {
     // if response has data then render cards
     if( undefined !== response && 0 !== Object.keys( response ).length && !isFetching ) {
         return (
+            
             <div className='cards__container'>
                 {
                 response.data && 0 < response.data.length ? response.data.map( ( item, index ) => {

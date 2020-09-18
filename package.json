@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "fire:dev": "npm install && next start",
+    "fire:prod": "npm install && next build && next start"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +22,8 @@
     "query-string": "^6.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "enzyme-adapter-react-16": "^1.15.4"
   }
 }
