@@ -4,6 +4,8 @@ This application gives a list of spacex launches by calling an API endpoint with
 
 [See this project live on Netlify]
 
+![live](https://github.com/tusharswami/Screening-Test-Tushar-Swami/blob/master/static/images/live.png?raw=true)
+
 # Dependency
   - Nodejs (v12.14.1)
   - Nextjs (v9.5.3)
@@ -24,16 +26,23 @@ http://127.0.0.1:3000
 or
 http://localhost:3000
 ```
+### Directory Structure
+
+![directory-structure](https://github.com/tusharswami/Screening-Test-Tushar-Swami/blob/master/static/images/directory.png?raw=true)
+
+![components-directory](https://github.com/tusharswami/Screening-Test-Tushar-Swami/blob/master/static/images/components.png?raw=true)
+![pages-directory](https://github.com/tusharswami/Screening-Test-Tushar-Swami/blob/master/static/images/pages.png?raw=true)
 
 ### Packages used
 
 This app uses following npm packages:
 
-* [next] - Framework for Reactjs!
-* [react] - package for React Core Modules
-* [react-dom] - package for React Dom Modules
-* [@zeit/next-sass] - package for using scss in [next] project.
-* [query-string] - package to build up query.
+* [next] - The React Framework
+* [react] - React is a JavaScript library for building user interfaces.
+* [react-dom] - React package for working with the DOM.
+* [@zeit/next-sass] - To Import `.sass` or `.scss` files in your Next.js project.
+* [query-string] - To Parse and stringify URL query strings.
+* [axios] - Promise based HTTP client for the browser and node.js.
 
 
    [node.js]: <http://nodejs.org>
@@ -43,5 +52,10 @@ This app uses following npm packages:
    [next]: <https://www.npmjs.com/package/next>
    [@zeit/next-sass]: <https://www.npmjs.com/package/@zeit/next-sass>
    [Downloads page]: <https://nodejs.org/en/download/>
+   [axios]: <https://www.npmjs.com/package/axios>
    [See this project live on Netlify]: <http://tushar-swami-publisic-screening.netlify.app>
+   
+# Screenshots
+
+![lighthouse_httptushar-swami-publisic-screening.netlify.app](https://github.com/tusharswami/Screening-Test-Tushar-Swami/blob/master/static/images/lighthouse_httptushar-swami-publisic-screening.netlify.app.png?raw=true)
 
