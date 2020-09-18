@@ -12,9 +12,11 @@ This application gives a list of spacex launches by calling an API endpoint with
 # Setting up the Project
 This app requires [Node.js](https://nodejs.org/) v12.14.1+ to run.
 Visit the [Downloads page], if you don't already have [Node.js](https://nodejs.org/) installed
+
+To install in Locally, Follow through the steps or use Helper Scripts
 ``` sh
  $ git clone https://github.com/tusharswami/Screening-Test-Tushar-Swami.git
- $ cd ./frontend
+ $ cd ./Screening-Test-Tushar-Swami
  $ npm install
  For Running Development Environment
  $ npm run dev
@@ -22,7 +24,7 @@ Visit the [Downloads page], if you don't already have [Node.js](https://nodejs.o
  $ npm run build
  $ npm start
 ```
-Use Helper Scripts 
+Or Use Helper Scripts 
 ```sh
 Gets the Development server up and running
  $ npm run fire:dev
