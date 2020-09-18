@@ -53,39 +53,7 @@
       "file": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
-      "file": "static/chunks/1.js"
-    },
-    {
       "id": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/createClass.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/inherits.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/typeof.js",
       "file": "static/chunks/1.js"
     },
     {
