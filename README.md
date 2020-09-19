@@ -38,6 +38,12 @@ http://127.0.0.1:3000
 or
 http://localhost:3000
 ```
+
+Run jest component & snapshot based test by running following Helper Script.
+
+```sh
+ $ npm test
+```
 ### Directory Structure
 
 ![directory-structure](https://github.com/tusharswami/Screening-Test-Tushar-Swami/blob/master/static/images/directory.png?raw=true)
