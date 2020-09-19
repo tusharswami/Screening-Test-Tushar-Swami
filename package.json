@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "test": "jest",
+    "test": "jest tests --coverage --updateSnapshot",
     "fire:dev": "npm install && next dev",
     "fire:prod": "npm install && next build && next start"
   },
