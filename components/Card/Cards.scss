@@ -77,7 +77,7 @@
 }
 
 //mobile
-@media ( max-width: 768px ) {
+@media ( max-width: 700px ) {
     .cards__container{
         width: 100%;
         overflow-y: scroll;
@@ -88,7 +88,7 @@
 }
 
 //tablet
-@media ( min-width: 768px ) {
+@media ( min-width: 701px ) and  ( max-width: 1024px ){
     .cards__container{
         width: 70%;
         overflow-y: scroll;
@@ -99,15 +99,32 @@
 }
 
 //dektop
-@media ( min-width: 1025px ) {
+@media ( min-width: 1025px ) and  ( max-width: 1440px ) {
     .cards__container{
         width: 80%;
         height: 85vh;
         overflow-y: scroll;
         &__card{
-            flex-basis: 32%;
+            flex-basis: 23%;
         }
     }
+}
+@media ( min-width: 1441px ) {
+    .cards__container{
+        max-width: 80%;
+        height: 85vh;
+        overflow-y: scroll;
+        &__card{
+            flex-basis: 23%;
+        }
+    }
+    .cards__container__card__icon__preloader{
+        width: 100%;
+    }
+    .cards__container__card__info__preloader{
+        width: 100%;
+    }
+
 }
 
 .hover figure img {

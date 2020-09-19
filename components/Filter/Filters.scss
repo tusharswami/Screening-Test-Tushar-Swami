@@ -26,6 +26,8 @@
         &__list{
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
             &__item{
                 text-align: center;
                 margin: 4px;
@@ -47,20 +49,13 @@
 }
 
 //tablet
-@media ( min-width: 700px ) {
+@media ( max-width: 700px ) {
     .filters_container{
-        width: 30%;
+        width: 100%;
         &__action{
             left: 80%;
             top: 25px;
         }
-    }
-    
-}
-
-//small screen
-@media ( max-width: 768px ) {
-    .filters_container{
         &__filter{
             &__list{
                 &__item{
@@ -73,7 +68,29 @@
 }
 
 //desktop
-@media ( min-width: 1025px ) {
+@media ( min-width: 701px ) and  ( max-width: 1024px ) {
+    .filters_container{
+        width: 29%;
+        &__action{
+            left: 78%;
+            top: 25px;
+        }
+    }
+    
+}
+
+@media ( min-width: 1025px ) and  ( max-width: 1440px ) {
+    .filters_container{
+        width: 20%;
+        &__action{
+            left: 78%;
+            top: 25px;
+        }
+    }
+    
+}
+
+@media ( min-width: 1441px ){
     .filters_container{
         width: 20%;
         &__action{

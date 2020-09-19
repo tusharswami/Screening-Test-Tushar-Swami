@@ -8,5 +8,11 @@ const Index = () => {
         </Layout>
     )
 }
-
+Index.getInitialProps = () => {
+    return (
+        <Layout>
+            <Landing/>
+        </Layout>
+    )
+}
 export default Index;

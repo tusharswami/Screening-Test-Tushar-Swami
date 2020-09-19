@@ -111,8 +111,6 @@ const Filters = ( props ) => {
         <div className='filters_container'>
             <h2 style={{textAlign:"center"}}>Filters</h2>
             <hr/>
-            <p className='filters_container__action' style={{cursor:"pointer", textAlign:"center"}} onClick={ () => { props.onClick( {} ) } }>Clear Filters</p>
-            <hr/>
             {
                 FILTERS.map( ( filter, index ) => {
                     return(
